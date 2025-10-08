@@ -1,4 +1,3 @@
-Of course. Here is the professionally crafted README file, designed for your GitHub repository.
 
 ```markdown
 # 📊 Ferns & Petals | Sales Performance Dashboard
