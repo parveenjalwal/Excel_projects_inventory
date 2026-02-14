@@ -5,13 +5,12 @@
 
 ![Dashboard Preview](dashboard_preview.png)
 
-
 ---
 
 ## 🏛️ Project Summary
 **Business Insights Dictionary** is a strategic analytics dashboard designed to decode the operational heartbeat of a digital music store. 
 
-Moving beyond standard "flat" reporting, this project introduces a **"Dark Glass" UI architecture** with a **Slate Blue & Gold** premium aesthetic. It functions as a comprehensive "Dictionary" for decision-makers, providing instant, high-contrast definitions for critical business metrics—from **Artist Performance** and **VIP Client Tiers** to **Financial Correlations** and **Seasonal Trends**.
+Moving beyond standard "flat" reporting, this project introduces a **"Dark Glass" UI architecture** with a **Slate Blue & Gold** premium aesthetic. It functions as a comprehensive "Dictionary" for decision-makers, providing instant, high-contrast definitions for critical business metrics.
 
 ---
 
@@ -24,17 +23,15 @@ To transform the raw **Chinook Database** (Retail Music Data) into a visually im
 
 ---
 
-## 🗂️ The Data Architecture
-This dashboard is engineered from a relational SQL dataset, utilizing the following core tables to weave the story:
+## 💎 The Dictionary in Action
+*A close-up view of the "Dictionary Cards"—where raw data is translated into clear business definitions.*
 
-* **Product:** `Artist.csv`, `Album.csv`, `Genre.csv`, `Track.csv` (Inventory & Content)
-* **Sales:** `Invoice.csv`, `InvoiceLine.csv` (Revenue & Transactional Heatmaps)
-* **People:** `Customer.csv`, `Employee.csv` (Staff Performance & Client Segmentation)
-* **Operations:** `Playlist.csv`, `MediaType.csv` (Format Preferences)
+![Dictionary Insights Close-Up](dictionary_closeup.png)
+
 
 ---
 
-## 💎 Dashboard Insights & Key Metrics
+## 📊 Key Insights & Definitions
 
 ### 1. 🎸 The Music & Content (Product Analysis)
 * **Top Talent:** **Iron Maiden** reigns as the *Most Popular Artist*, while **Rock** stands as the highest revenue-generating genre.
@@ -44,7 +41,7 @@ This dashboard is engineered from a relational SQL dataset, utilizing the follow
     * **Highest Priced Artist:** *Philip Glass Ensemble*
     * **Average Unit Price:** **$3.49** (indicating a premium pricing strategy for top-tier content).
 
-### 2. 🌟 The VIP Dictionary (Customer & Staff)
+### 2. 🌟 The VIP Vault (Customer & Staff)
 * **Top Customer:** **Pareek Manoj** is identified as the highest-value client based on cumulative purchase history.
 * **Top Employee:** **Jane Peacock** leads the internal sales leaderboard.
 * **Customer Hall of Fame:**
@@ -64,6 +61,16 @@ This dashboard is engineered from a relational SQL dataset, utilizing the follow
 * **Revenue Per Track:** **$12.24** on average.
 * **Price Correlation:** **-0.001** (A near-zero negative correlation suggests track length has almost no impact on pricing strategy).
 * **Largest Invoice ID:** Transaction #213.
+
+---
+
+## 🗂️ The Data Architecture
+This dashboard is engineered from a relational SQL dataset, utilizing the following core tables to weave the story:
+
+* **Product:** `Artist.csv`, `Album.csv`, `Genre.csv`, `Track.csv` (Inventory & Content)
+* **Sales:** `Invoice.csv`, `InvoiceLine.csv` (Revenue & Transactional Heatmaps)
+* **People:** `Customer.csv`, `Employee.csv` (Staff Performance & Client Segmentation)
+* **Operations:** `Playlist.csv`, `MediaType.csv` (Format Preferences)
 
 ---
 
