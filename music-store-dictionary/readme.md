@@ -4,7 +4,7 @@
 > **"Data is not just numbers; it is the sheet music of business performance."**
 
 ![Dashboard Preview](dashboard_preview.png)
-*(Replace this with your final dashboard screenshot)*
+
 
 ---
 
